@@ -243,6 +243,10 @@ Return<bool> BiometricsFingerprint::isUdfps(uint32_t) { return true; }
 Return<void> BiometricsFingerprint::onFingerDown(uint32_t, uint32_t, float, float) { return Void(); }
 
 Return<void> BiometricsFingerprint::onFingerUp() { return Void(); }
+    
+Return<void> BiometricsFingerprint::onHideUdfpsOverlay() { return Void(); }
+
+Return<void> BiometricsFingerprint::onShowUdfpsOverlay() { return Void(); }
 
 }  // namespace implementation
 }  // namespace V2_3
