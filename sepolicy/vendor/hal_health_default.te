@@ -1,1 +1,0 @@
-allow hal_health_default proc_tp:dir { search };
