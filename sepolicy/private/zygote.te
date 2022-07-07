@@ -1,2 +1,2 @@
-allow zygote vendor_file:file { read open };
+allow zygote vendor_file:file { read open getattr };
 allow zygote vendor_file:dir { read };
